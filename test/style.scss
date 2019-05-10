@@ -573,11 +573,13 @@ header {
     }
     @media (max-width: 400px), (max-height: 700px) {
         .mobile {
-            width: 60%;
+            width: 55%;
+            margin-top: 32px;
         }
         .phones {
             img {
-                left: 40px;
+                width: 63%;
+                left: 0px;
             }
         }
     }
