@@ -136,7 +136,7 @@ header {
         
     }
     
-    @media screen and (max-width: 800px){
+    @media (max-width: 800px) {
 
             height: 130px;
         
@@ -258,16 +258,15 @@ header {
         justify-content: center;
         flex-direction: column;
         margin-top: 150px;
+        color: #fff;
 
         h1{
             text-align: center; 
             font-size: 40pt;
             font-weight: normal;
-            color: #fff;
         }
 
         p{
-            color: #fff;
             padding: 30px;
         }
 
@@ -277,6 +276,7 @@ header {
             border: 1px;
             border-radius: 10px;
             color: #fff;
+            font-size: 15pt;
         }
     }
 
@@ -437,7 +437,7 @@ header {
         
         .content {
             img {
-                width: 45%;
+                width: 35%;
             }
         }
     }
@@ -626,7 +626,14 @@ footer {
         }
     }
     @media (max-width: 500px) {
-        height: 60vh;
+        height: 100vh;
         align-items: center;
+        flex-direction: column;
+        
+        .social {
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+        }
     }
 }
