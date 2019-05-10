@@ -546,12 +546,12 @@ header {
         flex-wrap: nowrap;
         
         .mobile {
-            margin-top: 30px;
-            width: 50%;
-            padding-left: 10px;
+            margin-top: 40px;
+            width: 41%;
+            padding-left: 6px;
             
             h1 {
-                font-size: 15pt;
+                font-size: 13pt;
             }
 
             p {
@@ -560,8 +560,9 @@ header {
         }
 
         .phones {
+            width: 42%;
             img {
-                width: 35%;
+                width: 65%;
                 height: 90%;
                 bottom: 0;
             }
